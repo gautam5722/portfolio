@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Challenge</title>
+    <link rel="stylesheet" href="formchallange.css">
+</head>
+<body>
+    <div class="container">
+    <div class="heading">
+        <h1>Contact Form</h1>
+        <h4>Please fill the text in the fields.</h4>
+    </div>
+    <div class="name">Your Name</div>
+    <input type="text" id="Name" name="Name" class="name" required placeholder="Your Full Name">
+    <br><br>
+
+    <div class="email">Email:</div>
+    <input type="email" name="email" id="email" placeholder="Vailed Email Address">
+    <br><br>
+
+    <div class="Mobile Number">Mobile Number </div>
+    <input type="tel" name="MobileNumber" id="MobileNumber" placeholder="9060967061">
+    <div class="massege">Massage</div>
+    <textarea name="massage" id="massage" cols="30" rows="10" placeholder="Your Massage To Us"></textarea>
+    <br><br>
+
+    <div class="subject">Subject</div>
+    <input type="text" name="subject" id="subject" placeholder="Job Inquary"> <br><br>
+    <p id="test">
+    <input type="button" onclick="gautam()" value="Send">
+</p>
+</div>
+
+</div>
+<script>
+    function gautam(){
+
+    alert("Your Details is Submitted");
+    
+}
+</script>
+</body>
+</html>
